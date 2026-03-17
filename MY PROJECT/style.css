@@ -1,0 +1,78 @@
+/* replaced CSS to use the image as the page background */
+body {
+  background: url("full product.jpg") center/cover no-repeat fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* keep nav on top-right */
+.top-nav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  gap: 30px;
+}
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+/* optional overlay for better text contrast */
+.hero-inner {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.35); /* faint dark overlay */
+  padding: 30px;
+  border-radius: 8px;
+}
+
+/* keep nav on top-right */
+.top-nav {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  display: flex;
+  gap: 30px;
+}
+.top-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+/* optional overlay for better text contrast */
+.hero-inner {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.35); /* faint dark overlay */
+  padding: 30px;
+  border-radius: 8px;
+}
+.about-body {
+    background: linear-gradient(to bottom right, #000000);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            min-height: 100vh;
+            color: #FFD700;
+}
